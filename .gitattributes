@@ -1,0 +1,10 @@
+# See https://github.com/github/linguist
+# Language detection rules
+# Project-specific overrides
+go.sum linguist-generated
+*.png binary
+docs/* linguist-vendored
+*.ico binary
+
+themes/**/*.css linguist-detectable
+*.css linguist-detectable
